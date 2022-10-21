@@ -519,11 +519,7 @@ Selama ${clockString(new Date - user.afkTime)}
             break	
 	    case 'donasi': 
 	    case 'donate': {
-                naze.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/7CBLG21/20221021-165833.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan QRIS diatas*
-                *Atau Transfer via*
-                *Gopay Dana Ovo ShopeePay*
-                Ke nomer berikut : 0895-6124-58445
-                _Terima kasih_` }, { quoted: m })
+                naze.sendMessage(m.chat, { image: { url: 'https://i.ibb.co/7CBLG21/20221021-165833.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan QRIS diatas*\n*Atau Transfer via*\n*Gopay Dana Ovo ShopeePay*\nKe nomer berikut : 0895-6124-58445\n_Terima kasih_` }, { quoted: m })
             }
             break
 	    
